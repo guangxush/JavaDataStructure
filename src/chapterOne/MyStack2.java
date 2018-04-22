@@ -1,14 +1,14 @@
-package ChapterOne;
+package chapterOne;
 import java.util.Stack;
 /**
- * 设计一个有getMing功能的栈
+ * 最小元素出栈
  * @author Console
  *
  */
-public class MyStack1 {
+public class MyStack2 {
 	private Stack<Integer> stackData;
 	private Stack<Integer> stackMin;
-	public MyStack1() {
+	public MyStack2() {
 		this.stackData = new Stack<Integer>();
 		this.stackMin  = new Stack<Integer>();
 	}
@@ -16,28 +16,28 @@ public class MyStack1 {
 	public void push(int newNum) {
 		if(this.stackMin.isEmpty()) {
 			this.stackMin.push(newNum);
-		}else if(newNum<=this.getMin()) {
+		}else if(newNum<this.getMin()) {
 			this.stackMin.push(newNum);
+		}else {
+			int newMin = this.stackMin.peek();
+			this.stackMin.push(newMin);
 		}
 		this.stackData.push(newNum);
 	}
 	//获取最小元素
 	public int getMin() {
-		if(this.stackData.isEmpty()) {
-			throw new RuntimeException("Your stack is empty");
+		if(this.stackMin.isEmpty()) {
+			throw new RuntimeException("Your Stack is Empty!");
 		}else {
-			return stackMin.peek();
+			return this.stackMin.peek();
 		}
 	}
 	//元素出栈
 	public int pop() {
-		if(this.stackMin.isEmpty()) {
-			throw new RuntimeException("Your stack is empty");
+		if(this.stackData.isEmpty()) {
+			throw new RuntimeException("Your Stack is Empty!");
 		}
-		int value = this.stackData.pop();
-		if(value==this.getMin()) {
-			this.stackMin.pop();
-		}
-		return value;
+		this.stackMin.pop();
+		return this.stackData.pop();
 	}
 }

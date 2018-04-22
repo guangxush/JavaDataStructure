@@ -1,4 +1,4 @@
-package ChapterOne;
+package chapterOne;
 import java.util.Stack;
 /**
  * 两个栈实现队列
