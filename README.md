@@ -9,3 +9,5 @@
 - ReplaceBlank 替换空格为20% StringBuffer逐个替换
 - PrintListReverse 从尾到头打印链表，递归和非递归方式
 - RestructionBinaryTreeNode 根据前序和中序构造二叉树
+- TwoQueuesImplyStack 两个队列实现栈
+- TwoStacksImplyQueue 两个栈实现队列
