@@ -13,7 +13,7 @@ public class TwoStacksImplyQueue<T> {
 	 * 入队列
 	 * @param t
 	 */
-	public void push(T t) {
+	public void offer(T t) {
 		stack1.push(t);
 	}
 	/**
@@ -34,9 +34,9 @@ public class TwoStacksImplyQueue<T> {
 	}
 	public static void main(String args[])throws Exception{
 		TwoStacksImplyQueue<Integer> queue = new TwoStacksImplyQueue<>();
-		queue.push(1);
-		queue.push(2);
-		queue.push(3);
+		queue.offer(1);
+		queue.offer(2);
+		queue.offer(3);
 		System.out.println(queue.poll());
 	}
 }

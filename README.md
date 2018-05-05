@@ -11,3 +11,4 @@
 - RestructionBinaryTreeNode 根据前序和中序构造二叉树
 - TwoQueuesImplyStack 两个队列实现栈
 - TwoStacksImplyQueue 两个栈实现队列
+- RotatetheMinimumNumberofArrays 旋转数组的最小数字，用二分查找实现
