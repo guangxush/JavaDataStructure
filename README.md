@@ -13,4 +13,5 @@
 - TwoStacksImplyQueue 两个栈实现队列
 - RotatetheMinimumNumberofArrays 旋转数组的最小数字，用二分查找实现
 - Fibonacci 输入n,输出斐波那契数列的第n项
-- Numberof1sinBinary 求二进制中1的个数
+- Numberof1sinBinary 求二进制中1的个数，n=(n-1)&n
+- TheIntegerPower 数值的整数次方，注意正负数判断
