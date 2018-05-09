@@ -3,9 +3,9 @@
 - ChapterOne Stack Queue
 
 # Coding Interviews
-- [SinglestonClass](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/SinglestonClass.java) 单例模式
-- [SearchInTwoDimArraY](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/SearchInTwoDimArraY.java) 二维有序数组查找元素
-- [LearningString](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/LearningString.java) 比较== equals String两种创建方法
+- [SinglestonClass](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/SingletonClass1.java) 单例模式
+- [SearchInTwoDimArraY](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/SearchInTwoDimArrays.java) 二维有序数组查找元素
+- [LearningString](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/LearnString.java) 比较== equals String两种创建方法
 - [ReplaceBlank](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/ReplaceBlank.java) 替换空格为20% StringBuffer逐个替换
 - [PrintListReverse](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/PrintListReverse.java) 从尾到头打印链表，递归和非递归方式
 - [RestructionBinaryTreeNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/RestructionBinaryTreeNode.java) 根据前序和中序构造二叉树
