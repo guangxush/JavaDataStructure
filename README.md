@@ -15,3 +15,4 @@
 - Fibonacci 输入n,输出斐波那契数列的第n项
 - Numberof1sinBinary 求二进制中1的个数，n=(n-1)&n
 - TheIntegerPower 数值的整数次方，注意正负数判断
+- PrintnDigits 打印1到n位最大的数
