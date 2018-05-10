@@ -16,3 +16,4 @@
 - [Numberof1sinBinary](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/Numberof1sinBinary.java) 求二进制中1的个数，n=(n-1)&n
 - [TheIntegerPower](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/TheIntegerPower.java) 数值的整数次方，注意正负数判断
 - [PrintToMaxOfNDigits](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/PrintToMaxOfNDigits.java) 打印1到n位最大的数
+- [DeleteLinkNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/DeleteLinkNode.java) O(1)时间内删除链表中的节点
