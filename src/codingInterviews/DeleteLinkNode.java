@@ -19,7 +19,8 @@ public class DeleteLinkNode {
 					pointListNode=pointListNode.next;
 				}
 				pointListNode.next=null;
-			}else{ deListNode.val=deListNode.next.val;
+			}else{ 
+				deListNode.val=deListNode.next.val;
 				deListNode.next=deListNode.next.next;
 			}
 		}
