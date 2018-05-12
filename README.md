@@ -17,7 +17,5 @@
 - [TheIntegerPower](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/TheIntegerPower.java) 数值的整数次方，注意正负数判断
 - [PrintToMaxOfNDigits](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/PrintToMaxOfNDigits.java) 打印1到n位最大的数
 - [DeleteLinkNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/DeleteLinkNode.java) O(1)时间内删除链表中的节点
-- [ReorderArray]
-(https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/ReorderArray.java) 调整数组顺序使奇数位于偶数前面
-- [FindKToTail]
-(https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/FindKToTail.java) 查找链表中倒数第k个结点
+- [ReorderArray](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/ReorderArray.java) 调整数组顺序使奇数位于偶数前面
+- [FindKToTail](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/FindKToTail.java) 查找链表中倒数第k个结点
