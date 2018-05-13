@@ -19,3 +19,5 @@
 - [DeleteLinkNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/DeleteLinkNode.java) O(1)时间内删除链表中的节点
 - [ReorderArray](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/ReorderArray.java) 调整数组顺序使奇数位于偶数前面
 - [FindKToTail](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/FindKToTail.java) 查找链表中倒数第k个结点
+- [ReverseList](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/ReverseList.java) 反转链表
+- [MergeList](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/MergeList.java) 合并两个排序的链表
