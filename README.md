@@ -22,5 +22,5 @@
 - [ReverseList](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/ReverseList.java) 反转链表
 - [MergeList](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/MergeList.java) 合并两个排序的链表
 - [IsSubTree](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/IsSubTree.java) 树的子结构
-- [MirrorBinaryTree](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/MirrorBinaryTree.java) 树的子结构
-- [PrintMatixClockwisely](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/PrintMatixClockwisely.java) 树的子结构
+- [MirrorBinaryTree](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/MirrorBinaryTree.java) 二叉树的镜像
+- [PrintMatixClockwisely](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/PrintMatixClockwisely.java) 顺时针打印矩阵
