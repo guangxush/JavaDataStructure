@@ -25,3 +25,4 @@
 - [MirrorBinaryTree](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/MirrorBinaryTree.java) 二叉树的镜像
 - [PrintMatixClockwisely](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/PrintMatixClockwisely.java) 顺时针打印矩阵
 - [StackWithMin](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/StackWithMin.java) 包含min函数的栈
+- [IsStackPopOrder](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/IsStackPopOrder.java) 栈的压入、弹出序列
