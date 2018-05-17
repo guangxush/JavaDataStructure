@@ -12,7 +12,7 @@ public class IsStackPopOrder {
 		if(line1==null||line2==null) {
 			return false;
 		}
-		int point1 = 0;
+		int point1 = 0;//line1中的遍历指针
 		Stack<Integer> stack = new Stack<Integer>();
 		for(int i=0;i<line2.length;i++) {
 			if(!stack.isEmpty()&&stack.peek()==line2[i]) {

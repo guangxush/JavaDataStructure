@@ -26,3 +26,6 @@
 - [PrintMatixClockwisely](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/PrintMatixClockwisely.java) 顺时针打印矩阵
 - [StackWithMin](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/StackWithMin.java) 包含min函数的栈
 - [IsStackPopOrder](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/IsStackPopOrder.java) 栈的压入、弹出序列
+- [PrintTreeFromTopToBottom](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/PrintTreeFromTopToBottom.java) 从上往下,从左往右打印二叉树的每个结点
+- [VerfiySequenceOfBST](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/VerfiySequenceOfBST.java) 给定一个数组判断是都是二叉搜索树的后序遍历
+- [FindPathEqualNum](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/FindPathEqualNum.java) 二叉树中和为某一值的路径

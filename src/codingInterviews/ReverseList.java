@@ -8,16 +8,14 @@ public class ReverseList {
 		if(head.next==null) return head;
 		ListNode preListNode = null;
 		ListNode nowListNode = head;
-		ListNode reversedHead = null;
 		while(nowListNode.next!=null) {
 			ListNode nextListNode  = nowListNode.next;
-			if(nextListNode==null)
-				reversedHead = nextListNode;
 			nowListNode.next = preListNode;
 			preListNode = nowListNode;
 			nowListNode = nextListNode;
 		}
-		return nowListNode;
+		ListNode reversedHead = nowListNode;
+		return reversedHead;
 	}
 	public static void main(String[] args) {
 		ListNode head=new ListNode(1);
