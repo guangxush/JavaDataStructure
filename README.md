@@ -29,3 +29,6 @@
 - [PrintTreeFromTopToBottom](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/PrintTreeFromTopToBottom.java) 从上往下,从左往右打印二叉树的每个结点
 - [VerfiySequenceOfBST](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/VerfiySequenceOfBST.java) 给定一个数组判断是都是二叉搜索树的后序遍历
 - [FindPathEqualNum](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/FindPathEqualNum.java) 二叉树中和为某一值的路径
+- [ComplexListNodeCopy](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/ComplexListNodeCopy.java) 复杂链表的复制
+- [BSTtoDoubleLink](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/BSTtoDoubleLink.java) 二叉搜索树转双向链表
+- [StringPermutation](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/StringPermutation.java) 字符串排列
