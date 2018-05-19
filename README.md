@@ -32,3 +32,13 @@
 - [ComplexListNodeCopy](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/ComplexListNodeCopy.java) 复杂链表的复制
 - [BSTtoDoubleLink](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/BSTtoDoubleLink.java) 二叉搜索树转双向链表
 - [StringPermutation](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/StringPermutation.java) 字符串排列
+- [MoreThanHalfNumber](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/MoreThanHalfNumber.java) 数组中出现次数超过一半的数组
+- [GetLeastNumbers](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/GetLeastNumbers.java) 最小的k个数
+- [FindGreatestSubArray](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/FindGreatestSubArray.java) 连续子数组的最大和
+- [CountOne](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/CountOne.java) 从1到n整数中1出现的次数
+- [ArraytoMinNumber](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/ArraytoMinNumber.java) 把数组排成最小的数
+- [GetUglyNumber](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/GetUglyNumber.java) 只包含因子2,3,和5的称为丑数
+- [StringPermutation](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/StringPermutation.java) 字符串排列
+- [StringPermutation](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/StringPermutation.java) 字符串排列
+- [StringPermutation](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/StringPermutation.java) 字符串排列
+- [StringPermutation](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/StringPermutation.java) 字符串排列
