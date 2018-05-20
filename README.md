@@ -38,7 +38,7 @@
 - [CountOne](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/CountOne.java) 从1到n整数中1出现的次数
 - [ArraytoMinNumber](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/ArraytoMinNumber.java) 把数组排成最小的数
 - [GetUglyNumber](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/GetUglyNumber.java) 只包含因子2,3,和5的称为丑数
-- [StringPermutation](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/StringPermutation.java) 字符串排列
-- [StringPermutation](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/StringPermutation.java) 字符串排列
-- [StringPermutation](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/StringPermutation.java) 字符串排列
-- [StringPermutation](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/StringPermutation.java) 字符串排列
+- [FirstNotRepeatChar](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/FirstNotRepeatChar.java)  第一个只出现一次的字符
+- [InversePairs](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/InversePairs.java) 数组中的逆序对
+- [FindFirstCommonNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/FindFirstCommonNode.java) 两个链表的第一个公共结点
+- [GetNumberofK](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/GetNumberofK.java) 数字在排序数组中出现的次数
