@@ -42,3 +42,6 @@
 - [InversePairs](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/InversePairs.java) 数组中的逆序对
 - [FindFirstCommonNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/FindFirstCommonNode.java) 两个链表的第一个公共结点
 - [GetNumberofK](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/GetNumberofK.java) 数字在排序数组中出现的次数
+- [TreeDepth](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/TreeDepth.java) 二叉树的深度
+- [IsBalancedTree](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/IsBalancedTree.java) 平衡二叉树
+- [FindNumsAppearOnce](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/FindNumsAppearOnce.java) 数组中只出现一次的数字
