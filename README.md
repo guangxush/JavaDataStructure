@@ -45,3 +45,9 @@
 - [TreeDepth](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/TreeDepth.java) 二叉树的深度
 - [IsBalancedTree](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/IsBalancedTree.java) 平衡二叉树
 - [FindNumsAppearOnce](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/FindNumsAppearOnce.java) 数组中只出现一次的数字
+- [FindNumberWithSum](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/FindNumberWithSum.java) 和为s的两个数字
+- [FindContinuesSequence](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/FindContinuesSequence.java) 和为s的连续正数序列
+- [ReverseSentence](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/ReverseSentence.java) 翻转单词顺序
+- [LeftRotateString](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/LeftRotateString.java) 字符串的左旋转
+- [LastRemaining](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/LastRemaining.java) 圆圈中最后剩下的数字
+- [AddnotUseSymbol](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/AddnotUseSymbol.java) 不用加减乘除做加法
