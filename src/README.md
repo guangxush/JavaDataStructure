@@ -3,3 +3,5 @@
 - [StackReverse](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/StackReverse.java) 使用递归函数和栈操作逆序一个栈
 - [TwoStacksQueue](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/TwoStacksQueue.java) 两个栈实现队列
 - [DogCatQueue](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/DogCatQueue.java) 猫狗队列
+- [SortStackbyStack](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/SortStackbyStack.java) 用一个栈实现另一个栈排序
+- [HanoiProblem](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/HanoiProblem.java) 用栈求解汉诺塔问题
