@@ -6,3 +6,4 @@
 - [SortStackbyStack](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/SortStackbyStack.java) 用一个栈实现另一个栈排序
 - [HanoiProblem](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/HanoiProblem.java) 用栈求解汉诺塔问题
 - [GetMaxWindow](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/GetMaxWindow.java) 生成窗口最大值数组
+- [GetMaxTree](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/GetMaxTree.java) 构造数组的MaxTree
