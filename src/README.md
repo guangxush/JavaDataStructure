@@ -8,3 +8,4 @@
 - [GetMaxWindow](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/GetMaxWindow.java) 生成窗口最大值数组
 - [GetMaxTree](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/GetMaxTree.java) 构造数组的MaxTree
 - [MaxRecSize](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/MaxRecSize.java) 求最大子矩阵的大小
+- [GetNum](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/GetNum.java) 最大值减去最小值等于num的子数组数量
