@@ -14,3 +14,6 @@
 - [RemoveLastKthNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/RemoveLastKthNode.java) 在单链表和双链表中删除倒数第K个节点
 - [RemoveMidNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/RemoveMidNode.java) 删除链表中的中间节点和a/b处的节点
 - [ReverseList](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/ReverseList.java) 翻转单向链表和双向链表
+- [ReversePartList](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/ReversePartList.java) 翻转部分单向链表
+- [JosephusKill](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/JosephusKill.java) 环形单链表的约瑟夫问题
+- [IsPalindrome](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/IsPalindrome.java) 判断一个链表是否为回文结构
