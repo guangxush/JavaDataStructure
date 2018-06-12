@@ -17,3 +17,6 @@
 - [ReversePartList](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/ReversePartList.java) 翻转部分单向链表
 - [JosephusKill](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/JosephusKill.java) 环形单链表的约瑟夫问题
 - [IsPalindrome](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/IsPalindrome.java) 判断一个链表是否为回文结构
+- [ListPartition](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/ListPartition.java) 将单链表按照某值划分成左边小中间相等右边大的链表
+- [CopyListWithRand](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/CopyListWithRand.java) 复制含有随机指针节点的链表
+- [AddList](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/AddList.java) 两个单链表相加生成新的链表
