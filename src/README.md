@@ -20,3 +20,7 @@
 - [ListPartition](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/ListPartition.java) 将单链表按照某值划分成左边小中间相等右边大的链表
 - [CopyListWithRand](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/CopyListWithRand.java) 复制含有随机指针节点的链表
 - [AddList](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/AddList.java) 两个单链表相加生成新的链表
+- [GetIntersectNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/GetIntersectNode.java) 单链表相交的若干问题
+- [ReverseKNodes](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/ReverseKNodes.java) 将单链表的每K个节点之间逆序
+- [RemoveRepNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/RemoveRepNode.java) 删除无序单链表中值重复出现的节点
+- [RemoveValueNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/RemoveValueNode.java) 在单链表中删除制定值节点
