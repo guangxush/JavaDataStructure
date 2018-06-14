@@ -23,4 +23,13 @@
 - [GetIntersectNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/GetIntersectNode.java) 单链表相交的若干问题
 - [ReverseKNodes](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/ReverseKNodes.java) 将单链表的每K个节点之间逆序
 - [RemoveRepNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/RemoveRepNode.java) 删除无序单链表中值重复出现的节点
-- [RemoveValueNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/RemoveValueNode.java) 在单链表中删除制定值节点
+- [RemoveValueNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/RemoveValueNode.java) 在单链表中删除指定值节点
+- [TreeConvertNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/TreeConvertNode.java) 将搜索二叉树转换成双向链表
+- [SelectionSortNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/SelectionSortNode.java) 单链表的选择排序
+- [RemoveNodeWired](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/RemoveNodeWired.java) 一种怪异的节点删除方式
+- [InsertNum](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/InsertNum.java) 有序的环形单链表中插入新节点
+- [MergeSortNodes](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/MergeSortNodes.java) 合并两个有序的单链表
+- [MergeLRNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/MergeLRNode.java) 按照左右半区的方式重新组合单链表
+
+
+
