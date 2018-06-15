@@ -30,6 +30,11 @@
 - [InsertNum](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/InsertNum.java) 有序的环形单链表中插入新节点
 - [MergeSortNodes](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/MergeSortNodes.java) 合并两个有序的单链表
 - [MergeLRNode](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterTwo/MergeLRNode.java) 按照左右半区的方式重新组合单链表
+### ChapterThree 二叉树问题
+- [BinaryTreeTraversal](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterThree/BinaryTreeTraversal.java) 分别使用递归和非递归的方式实现二叉树的先序、中序和后序遍历
+- [PrintEdge](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterThree/PrintEdge.java) 打印二叉树的边界节点
+
+
 
 
 
