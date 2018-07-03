@@ -23,7 +23,6 @@ abstract class Graph{
 }
 //长方形
 class Rectangle extends Graph {
-    private String name;
     private double length;
     private double weight;
     public Rectangle(String name,double length,double weight){
@@ -40,7 +39,6 @@ class Rectangle extends Graph {
 }
 //圆形
 class Circle extends Graph {
-    private String name;
     private double radius;
     public Circle(String name,double radius){
         super(name);
@@ -55,7 +53,6 @@ class Circle extends Graph {
 }
 //三角形
 class Triangle extends Graph {
-    private String name;
     private double edge_1,edge_2,edge_3;
     public Triangle(String name,double edge_1,double edge_2,double edge_3){
         super(name);
