@@ -33,6 +33,9 @@
 ### ChapterThree 二叉树问题
 - [BinaryTreeTraversal](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterThree/BinaryTreeTraversal.java) 分别使用递归和非递归的方式实现二叉树的先序、中序和后序遍历
 - [PrintEdge](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterThree/PrintEdge.java) 打印二叉树的边界节点
+- [PrintTree](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterThree/PrintTree.java) 直观的打印二叉树
+- [SerialBinaryTree](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterThree/SerialBinaryTree.java) 二叉树的序列化和反序列化
+
 
 
 
