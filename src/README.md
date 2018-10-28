@@ -1,3 +1,10 @@
+### ChapterZero 排序算法
+- [直接插入排序]()
+- []()
+- []()
+- []()
+- []()
+
 ### ChapterOne 栈和队列
 - [GetMinStack1](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/GetMinStack1.java) 得到栈中最小元素
 - [StackReverse](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterOne/StackReverse.java) 使用递归函数和栈操作逆序一个栈
@@ -36,6 +43,8 @@
 - [PrintTree](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterThree/PrintTree.java) 直观的打印二叉树
 - [SerialBinaryTree](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterThree/SerialBinaryTree.java) 二叉树的序列化和反序列化
 - [AbstractTest](https://github.com/guangxush/JavaDataStructure/blob/master/src/chapterThree/AbstractTest.java) 使用抽象类实现三种图形面积和周长的计算
+- []()遍历二叉树的神级方法
+
 
 
 
