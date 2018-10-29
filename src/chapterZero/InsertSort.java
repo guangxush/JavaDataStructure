@@ -19,10 +19,4 @@ public class InsertSort {
             a[j+1] = temp;
         }
     }
-    public static void printArray(int a[]){
-        for(int i : a){
-            System.out.print(i+" ");
-        }
-        System.out.println();
-    }
 }
