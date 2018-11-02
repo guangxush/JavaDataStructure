@@ -1,5 +1,7 @@
 package chapterZero;
 
+import java.util.Arrays;
+
 /**
  * 堆的定义如下：具有n个元素的序列（h1,h2,...,hn),当且仅当满足（hi>=h2i,hi>=2i+1）或（hi<=h2i,hi<=2i+1）(i=1,2,...,n/2)时称之为堆。
  * 在这里只讨论满足前者条件的堆。由堆的定义可以看出，堆顶元素（即第一个元素）必为最大项（大顶堆）。完全二叉树可以很直观地表示堆的结构。
@@ -8,25 +10,50 @@ package chapterZero;
  * 从算法描述来看，堆排序需要两个过程，一是建立堆，二是堆顶与堆的最后一个元素交换位置。所以堆排序有两个函数组成。一是建堆的渗透函数，二是反复调用渗透函数实现排序的函数。
  */
 public class HeapSort {
-    public static void heapSort(int[] a){
-        int length = a.length;
-        //循环建队
-        for(int i=0;i<length-1;i++){
-            //建堆
-            buildHeap()
-        }
-    }
-    private buildHeap(int[] data, int lastIndex){
-        //从lastIndex处节点的父节点开始（最后一个节点的父节点）
-        for(int i=(lastIndex-1)/2;i>0;i--){
-            //k保存正在判断的节点
-            int k = i;
-            //如果当前节点的子节点存在
-            while(k*2+1<=lastIndex){
-                //k节点作子节点的索引，
-                int biggerIndex = 2*k+1;
-                //如果big
+    /**
+     * 下沉调整
+     * @param array 待调整的堆
+     * @param parentIndex 要下沉的父节点
+     * @param length 堆的有效大小
+     */
+    public static void downAdjust(int[] array, int parentIndex, int length){
+        //temp保存父节点的值，用于最后的赋值
+        int temp = array[parentIndex];
+        int childIndex = 2*parentIndex + 1;
+        while(childIndex < length){
+            //如果有右孩子，且右孩子大于左孩子的值，则定位到右孩子
+            if(childIndex+1<length && array[childIndex+1]>array[childIndex]){
+                childIndex++;
             }
+            //如果父节点小于任何一个孩子的值，直接跳出
+            if(temp>=array[childIndex])
+                break;
+            //无需真正交换，单向赋值即可
+            array[parentIndex] = array[childIndex];
+            parentIndex = childIndex;
+            childIndex = 2*childIndex + 1;
+        }
+        array[parentIndex] = temp;
+    }
+
+    /**
+     * 堆排序
+     * @param array 待调整的堆
+     */
+    public static void heapSort(int[] array){
+        //1.把无序数组构建成二叉堆
+        for(int i=(array.length-2)/2;i>=0;i--){
+            downAdjust(array,i,array.length);
+        }
+        System.out.println(Arrays.toString(array));
+        //2.循环删除堆顶元素，移动到集合尾部，调节堆产生新的堆顶
+        for(int i=array.length-1;i>0;i--){
+            //最后一个元素和第一个元素交换
+            int temp = array[i];
+            array[i] = array[0];
+            array[0] = temp;
+            //下沉调整最大堆
+            downAdjust(array, 0 ,i);
         }
     }
 }
