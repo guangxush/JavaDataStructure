@@ -1,5 +1,8 @@
 package chapterThree;
 
+import chapterZero.SortUtil;
+
+import java.util.LinkedList;
 import java.util.Stack;
 
 /**
@@ -107,6 +110,22 @@ public class BinaryTreeTraversal {
                     h = c;
                 }
             }
+        }
+        System.out.println();
+    }
+    //层次遍历二叉树
+    public void levelOrderUnRecur(Node h){
+        System.out.print("pos=order: ");
+        LinkedList<Node> queue = new LinkedList<>();
+        Node p;
+        queue.push(h);
+        while(!queue.isEmpty()){
+            p = queue.removeFirst();
+            System.out.println(p.value+" ");
+            if(p.left!=null)
+                queue.addLast(p.left);
+            if(p.right!=null)
+                queue.addLast(p.right);
         }
         System.out.println();
     }
