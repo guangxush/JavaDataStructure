@@ -32,7 +32,7 @@ public class GetMaxTree {
         while (!stack.isEmpty()){
             popStackSetMap(stack,lBigMap);
         }
-        for(int i=nArr.length-;i!=-1;i--){
+        for(int i=nArr.length-1;i!=-1;i--){
             Node curNode = nArr[i];
             while(!stack.isEmpty()&&stack.peek().value<curNode.value){
                 popStackSetMap(stack,rBigMap);
@@ -62,7 +62,7 @@ public class GetMaxTree {
                     left.right=curNode;
                 }
             }else{
-                Node parent = left.value<right.value?:left:right;
+                Node parent = left.value<right.value?left:right;
                 if(parent.left==null){
                     parent.left=curNode;
                 }else{
