@@ -8,7 +8,7 @@ package chapterZero;
  * 也是排好顺序的。如此反复循环，直到全部排好顺序。
  */
 public class InsertSort {
-    public static void InsertSort(int a[]){
+    public static void insertSort(int a[]){
         int temp = 0;
         for(int i =0;i<a.length;i++){
             int j = i-1;
