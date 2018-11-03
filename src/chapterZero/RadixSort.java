@@ -44,10 +44,12 @@ public class RadixSort {
         int count = 0;//元素计数器
         //收集队列元素
         for(int k=0;k<10;k++){
-            while(queue.get(k).size()>0){
+            System.out.println(queue.size());
+            while(queue.get(k)!=null){
                 ArrayList<Integer> queue_result = queue.get(k);
-                array[count++] = queue_result.get(0);
+                array[count] = queue_result.get(0);
                 queue.remove(0);
+                count++;
             }
         }
     }
