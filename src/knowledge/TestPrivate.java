@@ -7,6 +7,10 @@ import org.junit.Test;
 import java.lang.reflect.Method;
 
 public class TestPrivate {
+
+    public TestPrivate(){
+
+    }
     private String method(String args){
         System.out.println("This is a private method!, the param is "+ args);
         return "hello";
