@@ -13,7 +13,7 @@ public class InsertSort {
         for(int i =0;i<a.length;i++){
             int j = i-1;
             temp = a[i];
-            for(;j>0&&a[j]>temp;j--){
+            for(;j>=0&&a[j]>temp;j--){
                 a[j+1] = a[j];//将大于temp的整体后移一位
             }
             a[j+1] = temp;
