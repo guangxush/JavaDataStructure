@@ -1,9 +1,7 @@
-# JAVA Data Structure
-
-- ChapterOne Stack Queue
 
 # Coding Interviews
 - [SinglestonClass](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/SingletonClass1.java) 单例模式
+- [DuplicateNumbers]()
 - [SearchInTwoDimArraY](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/SearchInTwoDimArrays.java) 二维有序数组查找元素
 - [LearningString](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/LearnString.java) 比较== equals String两种创建方法
 - [ReplaceBlank](https://github.com/guangxush/JavaDataStructure/blob/master/src/codingInterviews/ReplaceBlank.java) 替换空格为20% StringBuffer逐个替换
