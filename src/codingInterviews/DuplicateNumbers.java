@@ -40,6 +40,38 @@ public class DuplicateNumbers {
 
     //不改变原数组的情况下，把0~n-1的数字从中间的数字m,分为两部分，一部分为0~m，一部分为m+1~n-1，如果整个数组中0~m之间的数字超过m个，
     // 那么这半区间肯定包含重复的数字，否则就在后一半中，这个过程和二分法很像。
+    public static boolean duplicate(int numbers[],int length,int [] duplication) {
+        if(numbers == null || length == 0)
+            return false;
+        int start = 0;
+        int end = length-1;
+        while(start<=end){
+            int middle = start+((end-start)>>1);
+            int count = countRange(numbers,length,start,middle);
+            if(end == start){
+                if(count > 1){
+                    duplication[0] = start;
+                    return true;
+                }
+                else
+                    break;
+            }
+            if(count > (middle-start+1))
+                end = middle;
+            else
+                start = middle+1;
+        }
+        return false;
+    }
+    //统计部分数组元素在整个数组中的个数
+    private static int countRange(int[] numbers, int length, int start, int end) {
+        int count = 0;
+        for(int i=0;i<length;i++){
+            if(numbers[i]>=start && numbers[i]<=end)
+                count++;
+        }
+        return count;
+    }
 
     public static void main(String[] args) {
         int[] numbers = {2,3,1,5,1,4,3};
