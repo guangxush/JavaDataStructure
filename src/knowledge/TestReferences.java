@@ -41,6 +41,21 @@ public class TestReferences {
         str5+="test";
         System.out.println(str5);
         System.out.println(str6);
+
+
+        //Student{id=1, name='zhangsan'}
+        //Student{id=1, name='zhangsan'}
+        //Student{id=2, name='hello'}
+        //Student{id=2, name='hello'}
+        //Student{id=3, name='lisi'}
+        //Student{id=4, name='lisi_update'}
+        //1
+        //world
+        //world2
+        //string testtest
+        //string test
+        //String testtest
+        //String test
     }
 
     public static void updateInt(int a){
