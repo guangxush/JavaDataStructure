@@ -26,7 +26,19 @@ public class LinkNodeTest {
         printLinkNode(deletNElement(newNode,3));
         System.out.println("addNElement(newNode, 2, 1)");
         printLinkNode(addNElement(newNode, 2, 1));
-        //printLinkNode(mergeTwoLink(newNode,newNode));
+
+
+        LinkNode node11 = new LinkNode(1);
+        LinkNode node12 = new LinkNode(3);
+        LinkNode node13 = new LinkNode(5);
+        LinkNode node21 = new LinkNode(2);
+        LinkNode node22 = new LinkNode(4);
+        node11.next = node12;
+        node12.next = node13;
+        node13.next = null;
+        node21.next = node22;
+        node22.next = null;
+        printLinkNode(mergeTwoLink(node11,node21));
     }
 
     //链表翻转
