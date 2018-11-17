@@ -26,6 +26,9 @@ public class Sort {
         int[] array7 = new int[]{1, 8, 2, 3, 7, 0, 5, 4, 2, 9, 6};
         mergeSort(array7, 0, array7.length-1);
         System.out.println(Arrays.toString(array7));
+        int[] array8 = new int[]{1, 8, 2, 3, 7, 0, 5, 4, 2, 9, 6};
+        sleepSort(array8);
+        System.out.println(Arrays.toString(array8));
     }
 
     public static void quickSort(int[] a, int begin, int end){
@@ -173,5 +176,23 @@ public class Sort {
             mergeSort(a, mid+1, right);
             merge(a, left, mid, right );
         }
+    }
+
+    public static void sleepSort(int[] a){
+        for(int i = 0;i<a.length;i++){
+            int finalI = i;
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try{
+                        Thread.currentThread().sleep(a[finalI]);
+                        System.out.print(a[finalI]+" ");
+                    }catch (InterruptedException e){
+                        e.printStackTrace();
+                    }
+                }
+            }).start();
+        }
+        System.out.println();
     }
 }

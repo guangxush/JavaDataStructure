@@ -26,6 +26,7 @@ public class LinkNodeTest {
         printLinkNode(deletNElement(newNode,3));
         System.out.println("addNElement(newNode, 2, 1)");
         printLinkNode(addNElement(newNode, 2, 1));
+        //printLinkNode(mergeTwoLink(newNode,newNode));
     }
 
     //链表翻转
@@ -90,6 +91,25 @@ public class LinkNodeTest {
         now.next = temp;
         temp.next = next;
         return node;
+    }
+
+    //两个单链表按照元素大小合并为一个链表
+    public static LinkNode mergeTwoLink(LinkNode node1, LinkNode node2){
+        if(node1==null){
+            return node2;
+        }
+        if(node2==null){
+            return node1;
+        }
+        LinkNode head = null;
+        if(node1.data<=node2.data){
+            head = node1;
+            head.next = mergeTwoLink(node1.next,node2);
+        }else{
+            head = node2;
+            head.next = mergeTwoLink(node1,node2.next);
+        }
+        return head;
     }
 
 }
