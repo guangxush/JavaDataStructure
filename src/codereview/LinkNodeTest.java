@@ -3,6 +3,8 @@ package codereview;
 
 import sun.awt.image.ImageWatched;
 
+import java.util.*;
+
 /**
  * Created by gshan on 2018/11/14
  */
@@ -39,6 +41,16 @@ public class LinkNodeTest {
         node21.next = node22;
         node22.next = null;
         printLinkNode(mergeTwoLink(node11,node21));
+        printLinkNode(node11);
+        System.out.println("printListReverse:");
+        printListReverse(node11);
+        System.out.println();
+        printListReverseWithStack(node11);
+        System.out.println("sortLinkNode");
+        sortLinkNode(node11);
+        System.out.println("delete node2");
+        printLinkNode(removeLinkNode(node11,node12));
+
     }
 
     //链表翻转
@@ -122,6 +134,62 @@ public class LinkNodeTest {
             head.next = mergeTwoLink(node1,node2.next);
         }
         return head;
+    }
+
+    //从尾到头打印单链表
+    public static void printListReverse(LinkNode head){
+        if(head!=null&&head.next!=null){
+              printListReverse(head.next);
+        }
+        System.out.print(head.data+" ");
+    }
+
+    //借助栈实现链表反向输出
+    public static void printListReverseWithStack(LinkNode head){
+        Stack stack = new Stack();
+        while(head!=null){
+            stack.push(head.data);
+            head = head.next;
+        }
+        while(!stack.isEmpty()){
+            System.out.print(stack.pop()+" ");
+        }
+        System.out.println();
+    }
+
+    //对链表中的元素进行排序输出
+    public static void sortLinkNode(LinkNode head){
+        Set set = new TreeSet();
+        while(head!=null){
+            set.add(head.data);
+            head = head.next;
+        }
+        Iterator it = set.iterator();
+        while(it.hasNext()){
+            System.out.print(it.next()+" ");
+        }
+        System.out.println();
+    }
+
+    //O(1)时间内删除链表中指定的节点
+    public static LinkNode removeLinkNode(LinkNode head, LinkNode delNode){
+        if(head==null||delNode==null) return null;
+        if(head==delNode){
+            //head = null;//删除头节点
+            return  head.next;
+        }else{
+            if(delNode.next==null){//删除尾节点
+                LinkNode newHead = head;
+                while(newHead.next.next!=null){
+                    newHead = newHead.next;
+                }
+                newHead.next=null;
+            }else{
+                delNode.data = delNode.next.data;
+                delNode.next = delNode.next.next;
+            }
+            return head;
+        }
     }
 
 }
