@@ -51,6 +51,8 @@ public class LinkNodeTest {
         System.out.println("delete node2");
         printLinkNode(removeLinkNode(node11,node12));
 
+        System.out.println("isCircle:");
+        System.out.println(isCircle(node11));
     }
 
     //链表翻转
@@ -190,6 +192,19 @@ public class LinkNodeTest {
             }
             return head;
         }
+    }
+
+    //判断链表有没有环
+    public static boolean isCircle(LinkNode head){
+        //快慢指针
+        LinkNode fast = head;
+        LinkNode slow = head;
+        while(fast!=null&&fast.next!=null){
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow==fast) return true;
+        }
+        return false;
     }
 
 }
