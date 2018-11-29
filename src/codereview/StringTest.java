@@ -26,7 +26,13 @@ public class StringTest {
         System.out.println(d);
         System.out.println(b);
         System.out.println("---------------");
+
+        String e = "apple";
+        String f = "apple";
+        System.out.println(e.hashCode());
+        System.out.println(f.hashCode());
     }
+
     public static void modifyString(String str){
         str += "modify";
     }
