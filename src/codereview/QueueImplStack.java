@@ -11,7 +11,11 @@ public class QueueImplStack {
     Queue<Integer> queue2 = new LinkedList();
 
     public void push(int e){
-        queue1.offer(e);
+        if(queue1.isEmpty()){
+            queue1.offer(e);
+        }else{
+            queue2.offer(e);
+        }
     }
 
     public int pop(){
