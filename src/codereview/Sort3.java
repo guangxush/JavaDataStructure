@@ -37,7 +37,7 @@ public class Sort3 {
                 if(i<j){
                     a[j] = a[i];
                     a[i] = pivot;
-                    i++;
+                    j--;
                 }
             }
             quickSort(a, start, i-1);
