@@ -11,21 +11,27 @@ public class QueueImplStack {
     Queue<Integer> queue2 = new LinkedList();
 
     public void push(int e){
-        queue1.offer(e);
+        if(queue1.isEmpty()){
+            queue1.offer(e);
+        }else{
+            queue2.offer(e);
+        }
     }
 
     public int pop(){
-        if(!queue2.isEmpty()){
-            return queue2.poll();
-        }else{
-            while(!queue1.isEmpty()){
+        if(queue1.isEmpty()&&queue2.isEmpty()){
+            throw new IllegalArgumentException("The elements don't exist");
+        }
+        if(!queue1.isEmpty()){
+            while(queue1.size()>1){
                 queue2.offer(queue1.poll());
             }
-        }
-        if(!queue2.isEmpty()){
-            return queue2.poll();
+            return queue1.poll();
         }else{
-            throw new IllegalArgumentException("The elements don't exist");
+            while(queue2.size()>1){
+                queue1.offer(queue2.poll());
+            }
+            return queue2.poll();
         }
     }
 
