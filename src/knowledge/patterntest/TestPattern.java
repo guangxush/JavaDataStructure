@@ -12,7 +12,7 @@ public class TestPattern {
         List<AInServer> list = new ArrayList<>();
         ClassInServer classInServer = new ClassInServer();
         classInServer.setList(list);
-        String json = classInServer;
+        //String json = classInServer;
         ClassInClient classInClient = new ClassInClient();
     }
 }
