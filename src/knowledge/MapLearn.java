@@ -14,8 +14,9 @@ public class MapLearn {
 
         //根据count的值来判断两个对象是否相等。
         public boolean equals(Object obj) {
-            if (obj == this)
+            if (obj == this){
                 return true;
+            }
             if (obj != null &&
                     obj.getClass() == A.class) {
                 A a = (A) obj;
